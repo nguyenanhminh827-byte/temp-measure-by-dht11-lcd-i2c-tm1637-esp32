@@ -1,0 +1,26 @@
+dowload ngrok on microsoft
+sign in ngrok
+vào mục Your Authtoken or Getting Started
+
+
+you see:
+    ngrok config add-authtoken 2Pxxxxxxxxxxxxxxxxxxxx
+    2Pxxxxxxxxxxxxxxxxxxxx is your token
+
+copy ngrok config add-authtoken 2Pxxxxxxxxxxxxxxxxxxxx
+
+
+turn on cmd and 
+cd C:\ngrok
+
+paste ngrok config add-authtoken 2Pxxxxxxxxxxxxxxxxxxxx
+
+
+succesful is 
+    Authtoken saved to configuration file
+
+public server 
+    ngrok http 192.168.1.10:80
+
+public server có dạng :https://abc123.ngrok-free.app
+
